@@ -58,9 +58,33 @@
         "1 tsp baking powder",
         "1 cup milk",
         "Butter"
-      ],
-      "cookingTime": "20 minutes"
-    },
+        ],
+        "cookingTime": "20 minutes"
+      },
+      {
+        "id": "613b8b1c28a914001b7d28ab",
+        "title": "Gulab Jamun",
+        "steps": [
+          "In a bowl, mix 1 cup of milk powder, 1/4 cup of all-purpose flour, 1/4 teaspoon of baking soda, and 2 tablespoons of ghee.",
+          "Add milk gradually to form a soft dough.",
+          "Make small balls from the dough and deep fry in hot oil until golden brown.",
+          "In another pot, heat 1 cup of sugar and 1 cup of water until the sugar dissolves and the syrup thickens slightly.",
+          "Soak the fried balls in the sugar syrup for at least 30 minutes before serving."
+        ],
+        "image": "/gulab_jamun.jpg",
+        "description": "A traditional Indian dessert made from deep-fried dough balls soaked in sweet syrup.",
+        "ingredients": [
+          "1 cup milk powder",
+          "1/4 cup all-purpose flour",
+          "1/4 tsp baking soda",
+          "2 tbsp ghee",
+          "Milk",
+          "Oil for frying",
+          "1 cup sugar",
+          "1 cup water"
+        ],
+        "cookingTime": "1 hour"
+      },
     {
       "id": "613b8b1c28a914001b7d28a4",
       "title": "Chicken Biryani",
@@ -260,30 +284,6 @@
       "image": "/fries.jpg",
       "description": "Crispy and golden French fries, perfect as a snack or side dish.",
       "ingredients": ["3 large potatoes", "Oil for frying", "Salt"],
-      "cookingTime": "1 hour"
-    },
-    {
-      "id": "613b8b1c28a914001b7d28ab",
-      "title": "Gulab Jamun",
-      "steps": [
-        "In a bowl, mix 1 cup of milk powder, 1/4 cup of all-purpose flour, 1/4 teaspoon of baking soda, and 2 tablespoons of ghee.",
-        "Add milk gradually to form a soft dough.",
-        "Make small balls from the dough and deep fry in hot oil until golden brown.",
-        "In another pot, heat 1 cup of sugar and 1 cup of water until the sugar dissolves and the syrup thickens slightly.",
-        "Soak the fried balls in the sugar syrup for at least 30 minutes before serving."
-      ],
-      "image": "/gulab_jamun.jpg",
-      "description": "A traditional Indian dessert made from deep-fried dough balls soaked in sweet syrup.",
-      "ingredients": [
-        "1 cup milk powder",
-        "1/4 cup all-purpose flour",
-        "1/4 tsp baking soda",
-        "2 tbsp ghee",
-        "Milk",
-        "Oil for frying",
-        "1 cup sugar",
-        "1 cup water"
-      ],
       "cookingTime": "1 hour"
     },
     {

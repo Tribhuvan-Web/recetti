@@ -7,6 +7,8 @@
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  background-color: #f2f2f2;
+  color: #575757ff;
 }
 
 ::-webkit-scrollbar {
@@ -19,6 +21,7 @@ body {
 
 /************************ NAVBAR SECTION STYLING STARTS **************************************/
 nav {
+  color: #575757ff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,9 +66,10 @@ nav ul li a {
 }
 
 .hero section h4 {
-  color: #dc582a;
+  color: #f95f26;
   font-size: 32px;
   font-weight: 500;
+  background: none;
 }
 
 .hero section h2 {
@@ -73,11 +77,13 @@ nav ul li a {
   font-size: 40px;
   font-weight: 700;
   width: 450px;
+  background: none;
 }
 
 .hero section p {
   color: #fff;
   font-size: 24px;
+  background: none;
   font-weight: 400;
 }
 
@@ -310,6 +316,11 @@ footer a:last-child {
   margin-bottom: 15px;
   font-size: 20px;
   color: gray;
+}
+
+.about h3 {
+  color: red;
+  margin-bottom: 1%;
 }
 
 /************************ ABOUT SECTION STYLING ENDS **************************************/

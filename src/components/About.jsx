@@ -4,33 +4,97 @@ const About = () => {
   return (
     <>
       <article className="about">
-        <h1>CookPal</h1>
+        <h1>Welcome to Recetti</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-          adipisci aliquam eveniet illum, dolore, dicta beatae praesentium
-          assumenda fugit maiores veritatis dolor officia. Adipisci architecto
-          doloremque recusandae quos quas, velit odio cupiditate sint fugit.
-          Eligendi reiciendis voluptas voluptates ipsum hic. Dolorem
-          voluptatibus provident deserunt quo. Tempore ipsam veniam cumque!
-          Consectetur unde ipsum, sapiente, dolorem alias temporibus facilis,
-          accusamus blanditiis iusto quod ipsam vero amet ad similique expedita.
-          Dolorum amet ea voluptatum, praesentium corrupti odio! Voluptatum
-          officiis sit minus nemo eaque distinctio omnis nesciunt voluptatibus.
-          Dolore esse beatae nihil ab perspiciatis. Reprehenderit modi illo
-          voluptatem, nobis rem totam nulla cupiditate asperiores.
+          Recetti is your ultimate destination for discovering and sharing
+          delightful recipes from around the world. Whether you’re a seasoned
+          chef or a home cook, Recetti offers a diverse collection of recipes to
+          inspire your culinary journey.
         </p>
+        <h3>Features:</h3>
+        <ul>
+          <li>
+            <p>
+              <span
+                style={{
+                  fontWeight: "500",
+                  color: "black",
+                  marginTop: "2%",
+                }}
+              >
+                Explore Recipes : &nbsp;
+              </span>
+              Browse through a vast array of recipes, from appetizers to
+              desserts, curated to suit every taste and occasion
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                style={{
+                  fontWeight: "500",
+                  color: "black",
+                  marginTop: "2%",
+                }}
+              >
+                User-Friendly Interface: &nbsp;
+              </span>
+              Our intuitive design ensures a seamless experience, making it easy
+              to find and follow recipes.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                style={{
+                  fontWeight: "500",
+                  color: "black",
+                  marginTop: "2%",
+                }}
+              >
+                Personalized Recommendations: &nbsp;
+              </span>
+              Get recipe suggestions based on your preferences and cooking
+              history.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                style={{
+                  fontWeight: "500",
+                  color: "black",
+                  marginTop: "2%",
+                }}
+              >
+                Community Engagement: &nbsp;
+              </span>
+              Connect with fellow food enthusiasts, share your own recipes, and
+              get feedback from the community.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span
+                style={{
+                  fontWeight: "500",
+                  color: "black",
+                  marginTop: "2%",
+                }}
+              >
+                Step-by-Step Instructions: &nbsp;
+              </span>
+              Detailed and easy-to-follow instructions, complete with images and
+              videos, to guide you through each recipe.
+            </p>
+          </li>
+        </ul>
+        <h1>Why Recetti?</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-          aspernatur quasi temporibus dolorem molestiae ullam, quod est eius
-          illum aperiam. Cumque fuga excepturi nesciunt est fugiat a cupiditate
-          quaerat nihil reprehenderit, hic distinctio? Fugiat est fuga vitae
-          maxime quis illo ratione, sunt excepturi. Doloremque, dolorum. Sint
-          porro architecto qui dicta!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
-          consectetur fugit explicabo incidunt laboriosam veritatis, suscipit
-          voluptatem vel minima reiciendis.{" "}
+          At Recetti, we believe that cooking is an art that brings people
+          together. Our platform is designed to celebrate the joy of cooking and
+          the diversity of flavors from different cultures. Join us in this
+          culinary adventure and make every meal a memorable experience.
         </p>
       </article>
     </>
