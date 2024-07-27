@@ -148,15 +148,15 @@ nav ul li a {
 }
 
 .recipes section:first-child button:nth-child(2) {
-  background-color: #c4d600;
+  background-color: #085820;
 }
 
 .recipes section:first-child button:nth-child(3) {
-  background-color: #eaaa00;
+  background-color: #585A07;
 }
 
 .recipes section:first-child button:nth-child(4) {
-  background-color: #ed8b00;
+  background-color: #123306;
 }
 
 .recipes section:first-child button:last-child {
@@ -291,7 +291,7 @@ footer a:last-child {
 }
 
 .recipe-details h5 {
-  color: #dc582a;
+  color: #B32B49;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 35px;
@@ -324,3 +324,10 @@ footer a:last-child {
 }
 
 /************************ ABOUT SECTION STYLING ENDS **************************************/
+
+/************************ Menu button started **************************************/
+a {
+  text-decoration: none;
+  background: transparent;
+  color: white;
+}

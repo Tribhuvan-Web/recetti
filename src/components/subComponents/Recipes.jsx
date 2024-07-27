@@ -1,21 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter, Link, Route } from "react-router-dom";
+import TipsandTricks from "../subMenu/TipsandTricks";
 
 const Recipes = ({ recipes }) => {
-  const options = [
-    "Recipes & Menus",
-    "Share Your Recipe",
-    "Custom Meal Plan",
-    "Create Grocery Store",
-    "Cooking Tips & Tricks",
-  ];
   return (
     <>
       <article className="recipes">
         <section>
-          {options.map((element) => {
-            return <button key={element}>{element}</button>;
-          })}
+          <button>
+            <Link to={"/TipsandTricks"}>Cooking Tips & Tricks </Link>
+          </button>
+          <button>
+            <Link to={"/NewRecipes"}>New Recipes </Link>
+          </button>
+          <button>
+            <Link to={"/ShareYourRecipes"}>Share Your Recipe</Link>
+          </button>
+          <button>
+            <Link to={"/CustomMealPlan"}>Custom Meal Plan </Link>
+          </button>
         </section>
         <section className="container">
           {recipes.slice(0, 8).map((element, index) => {

@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <img src="/logo.png" alt="Recipes Finder" />
+        <Link to={"/"}>
+          <img src="/logo.png" alt="Recipes Finder" />
+        </Link>
         <ul>
           <li>
             <Link to={"/"}>Home</Link>
