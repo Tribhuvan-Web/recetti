@@ -1,6 +1,5 @@
 import React from "react";
-import { BrowserRouter, Link, Route } from "react-router-dom";
-import TipsandTricks from "../subMenu/TipsandTricks";
+import {  Link } from "react-router-dom";
 
 const Recipes = ({ recipes }) => {
   return (

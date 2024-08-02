@@ -6,8 +6,8 @@ const HeroSection = () => {
       <article className="hero">
         <section>
           <h4>Trending now</h4>
-          <h2> Famous French Fries </h2>
-          <p>By Tribhuvan nath</p>
+          <h2> Gulab Jamun </h2>
+          <p>By Amit Puri</p>
         </section>
       </article>
     </>

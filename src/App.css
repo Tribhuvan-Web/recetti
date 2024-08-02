@@ -331,3 +331,21 @@ a {
   background: transparent;
   color: white;
 }
+
+#trickMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 4%;
+  color: black;
+  text-transform: uppercase;
+  font-size: 100%;
+}
+
+#trickDiv {
+  display: flex;
+  color: #111;
+  gap: 2%;
+  margin-top: 2%;
+}

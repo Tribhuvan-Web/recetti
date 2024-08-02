@@ -11,6 +11,7 @@ import TipsandTricks from "./components/subMenu/TipsandTricks";
 import Shareyourrecipes from "./components/subMenu/Shareyourrecipes";
 import CustomMealPlan from "./components/subMenu/CustomMealPlan";
 import NewRecipes from "./components/subMenu/NewRecipes";
+
 const App = () => {
   const [recipes, setRecipes] = useState([]);
   useEffect(() => {
