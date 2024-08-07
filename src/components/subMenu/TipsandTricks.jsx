@@ -3,7 +3,7 @@ import React from "react";
 const TipsandTricks = () => {
   const data = [
     {
-      id: "01",
+      id: "01.",
       value: "How to Prevent Food From Sticking ? ",
       step1:
         "  Heated oil on a hot pan creates a slick, nonstick surface, guaranteeing a surefire sauté. Do it this way in three easy steps",
@@ -14,7 +14,7 @@ const TipsandTricks = () => {
         " Step 3 : Add 1 to 2 tablespoons oil to the empty area and let it get hot before moving the food back.",
     },
     {
-      id: "02",
+      id: "02.",
       value: "How to Make Simple Syrup ? ",
       step1:
         " Step 1 : Combine equal parts water and sugar in a saucepan and cook over medium heat, stirring often, until the sugar has completely dissolved (3 to 5 minutes).",
@@ -25,7 +25,7 @@ const TipsandTricks = () => {
         " Step 4 : store the syrup in the refrigerator for up to 2 weeks. We told you it was simple!",
     },
     {
-      id: "03",
+      id: "03.",
       value: "A Cleaner Way to Crack an Egg .",
       step1:
         "  crack the egg on a flat surface, like a counter, to create one clean break. That way, the membrane stays intact, meaning no shell in your scramble. Here's the technique.",
@@ -37,7 +37,7 @@ const TipsandTricks = () => {
         "Step 3. Place your thumbs on either side of the crack and gently pull the shell apart. Any shards will stick to the membrane, not fall into the bowl.",
     },
     {
-      id: "04",
+      id: "04.",
       value: "How to Chop Garlic ? ",
       step1:
         "Love cooking with garlic but hate struggling with sticky, paper-thin peels? With these three steps—trim, crush, chop—you can prep a clove in no time.",
@@ -49,7 +49,7 @@ const TipsandTricks = () => {
         "Step 3. Gather the peeled cloves, hold your knife by the handle, and place your other, nondominant hand on top of the blade. Rock the knife up and down through the cloves (with the tip staying on the cutting board). Chop until the garlic is the size you want.",
     },
     {
-      id: "05",
+      id: "05.",
       value: "Cutting Up a Pineapple . ",
       step1:
         " Step 1. With a serrated or chef's knife, cut off the top of the pineapple and a thick slice from the bottom.",
@@ -60,7 +60,7 @@ const TipsandTricks = () => {
       step4: "Step 4. Slice or cut the pieces into chunks as desired.",
     },
     {
-      id: "06",
+      id: "06.",
       value: "Freezing and Toasting Nuts . ",
       step1:
         " From storing to cooking, here's how to make the most of these tasty little gems.",
@@ -72,7 +72,7 @@ const TipsandTricks = () => {
         "Roasted nuts last 2 to 3 weeks, and are best stored in an airtight container in a cool, dry place. If you need to store them longer, freeze them",
     },
     {
-      id: "07",
+      id: "07.",
       value: "How to Slice an Ice Cream Cake ? ",
       step1:
         " Just out of the freezer, an ice cream cake is rock hard and can be impossible to cut. And who wants to wait for ice cream cake to soften? Try this next time.",
@@ -83,7 +83,7 @@ const TipsandTricks = () => {
       step4: "Step 3. Rewarm the blade as necessary.",
     },
     {
-      id: "08",
+      id: "08.",
       value: "Aluminum-Foil Master Class",
       step1:
         "  During grilling season, foil is a cook's secret weapon. Here are three ways to use this marvelous multitasker.",
@@ -98,20 +98,28 @@ const TipsandTricks = () => {
 
   return (
     <>
-      <h1 id="trickMenu" style={{ color: "black", margin: "auto" }}>
-        Top 08 Kitchen tricks and tips for tasty and delicious food{" "}
+      <h1
+        id="trickMenu"
+        className="font-semibold text-[#f2f2f2] m-auto mb-2 flex items-center text-center justify-center uppercase bg-[#2ec3f1] h-12 rounded-2xl"
+      >
+        Top tips for tasty and delicious food{" "}
       </h1>
       {data.map((step) => (
         <>
           <hr />
-          <div id="trickDiv" style={{ color: "black", margin: "auto" }}>
-            <h2 style={{ marginTop: "0.5%" }}>{step.id}</h2>
-            <h4 style={{ marginTop: "1%" }}>{step.value}</h4>
+          <div
+            id="trickDiv"
+            className="m-auto text-black flex gap-2 mb-1 mt-2 font-semibold"
+          >
+            <h2 className="mt-2">{step.id}</h2>
+            <h4 className="mt-2">{step.value}</h4>
           </div>
-          <p style={{ color: "black", margin: "auto" }}>{step.step1}</p>
-          <ul style={{ color: "black", margin: "auto" }}>
-            <li style={{ color: "black" }}>{step.step2}</li>
-            <li style={{ color: "black", margin: "auto" }}>{step.step3}</li>
+          <p className="m-auto text-black font-medium">{step.step1}</p>
+          <ul className="m-auto text-black font-medium">
+            <li style={{ color: "black" }} key={step.id}>
+              {step.step2}
+            </li>
+            <li className="m-auto text-black">{step.step3}</li>
             <li style={{ color: "black", marginBottom: "3%" }}>{step.step4}</li>
           </ul>
         </>
