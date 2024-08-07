@@ -349,3 +349,25 @@ a {
   gap: 2%;
   margin-top: 2%;
 }
+
+/************************ Input label started **************************************/
+.yourRecipe {
+
+  input {
+    color: black;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid blue;
+    width: 100%;
+    margin-top: 3%;
+    font-size: 1.2rem;
+
+    input:focus {
+      background-color: rebeccapurple;
+    }
+
+    .recipeInput {
+      height: 70%;
+    }
+  }
+}
