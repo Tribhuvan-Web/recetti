@@ -5,7 +5,7 @@ import { RiInstagramFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className="flex items-end">
         <Link to={""}>
           <FaFacebook />
         </Link>

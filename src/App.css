@@ -331,3 +331,9 @@ a {
   background: transparent;
   color: white;
 }
+
+.react-time-picker {
+  background-color: red;
+  height: 100%;
+  color: #085820;
+}

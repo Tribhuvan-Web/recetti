@@ -18,7 +18,6 @@ const Shareyourrecipes = () => {
       <h1 className="font-semibold  mt-4 mb-5 bg-green-500 text-center h-12 flex justify-center items-center text-[#f2f2f2] rounded-lg">
         Share your recipe here{" "}
       </h1>
-
       <form>
         <div className="grid gap-6 mb-6 md:grid-cols-2">
           <div>
