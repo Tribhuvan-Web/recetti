@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
-import ToDoItem from "../CustomMealPlan/ToDoItem";
 import ToDoList from "../CustomMealPlan/ToDoList";
 import "react-toastify/dist/ReactToastify.css";
+import ToDoForm from "../CustomMealPlan/ToDoForm";
 
 const CustomMealPlan = () => {
   //Use state to set the custom meal
@@ -39,7 +39,7 @@ const CustomMealPlan = () => {
 
   return (
     <>
-      <ToDoItem addTask={addTask} />
+      <ToDoForm addTask={addTask} />
       <ToDoList todo={todo} deleteTask={deleteTask} />
       <ToastContainer position="bottom-right" theme="dark" />
     </>

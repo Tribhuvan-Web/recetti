@@ -4,8 +4,8 @@ import ToDoItem from "./ToDoItem";
 const ToDoList = ({ todo, deleteTask, time }) => {
   return (
     <div>
-      <section className="font-semibold">
-        <h1 className="mt-4">Your custom meal</h1>
+      <section className="todo-list">
+        <h1 className="mt-4 font-semibold text-blue-900">Your custom meal</h1>
         <div className="container">
           {todo && todo.length > 0 ? (
             todo.map((element) => {
@@ -18,8 +18,8 @@ const ToDoList = ({ todo, deleteTask, time }) => {
               );
             })
           ) : (
-            <p className="mb-64 mt-4 first:text-red-600">
-              You didn't created any custom meal
+            <p className="mb-64 mt-4 first:text-red-600 font-semibold">
+              You didn't created any custom meal.
             </p>
           )}
         </div>

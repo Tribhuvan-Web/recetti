@@ -1,5 +1,5 @@
 import React from "react";
-import {  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Recipes = ({ recipes }) => {
   return (
@@ -10,13 +10,10 @@ const Recipes = ({ recipes }) => {
             <Link to={"/TipsandTricks"}>Cooking Tips & Tricks </Link>
           </button>
           <button>
-            <Link to={"/NewRecipes"}>New Recipes </Link>
+            <Link to={"/CustomMealPlan"}>Custom Meal Plan </Link>
           </button>
           <button>
             <Link to={"/ShareYourRecipes"}>Share Your Recipe</Link>
-          </button>
-          <button>
-            <Link to={"/CustomMealPlan"}>Custom Meal Plan </Link>
           </button>
         </section>
         <section className="container">
